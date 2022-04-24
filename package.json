@@ -1,0 +1,29 @@
+{
+  "name": "onboarding_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "NODE_ENV=dev node $NODE_DEBUG_OPTION ./node_modules/nodemon/bin/nodemon --exec babel-node --inspect=0.0.0.0 --presets '@babel/preset-env' server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.8"
+  }
+}
